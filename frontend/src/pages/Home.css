@@ -1,0 +1,81 @@
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .box {
+    background: #fdfdfd;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  }
+  
+  .banner-box {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    text-align: center;
+  }
+  
+  .banner-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .featured-product-box.large {
+    background-color: #f0f8ff;
+    border-left: 5px solid #36d1dc;
+  }
+  
+  .about-box h3 {
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  .testimonials-list {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .testimonial {
+    background: #fff;
+    padding: 1rem;
+    border-left: 4px solid #5b86e5;
+  }
+  
+  .testimonial-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ctas-box .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .product-card {
+    background: #f7f7f7;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
